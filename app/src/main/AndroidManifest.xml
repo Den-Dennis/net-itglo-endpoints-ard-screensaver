@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.itglo.endpoints.ard.screensaver"
-    android:versionCode="1"
-    android:versionName="2026.0.1">
+    android:versionCode="2"
+    android:versionName="2026.0.2">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35" />
 
@@ -23,7 +23,7 @@
             android:directBootAware="true"
             android:exported="true"
             android:label="ARD Screensaver"
-            android:screenOrientation="landscape">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

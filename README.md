@@ -4,14 +4,14 @@ Minimal Android attract/screen-saver app for truck driver self-registration kios
 
 ## Current artifact
 
-- APK: `dist/ard-screensaver-v2026.0.1-debug.apk`
+- APK: `dist/ard-screensaver-v2026.0.2-debug.apk`
 - Package: `net.itglo.endpoints.ard.screensaver`
-- Version: `2026.0.1` / versionCode `1`
-- SHA256: `8feffa72e5470ac5ba808c6ce25fdb8b7a8351108eb5ec262220ad89bc6bc896`
+- Version: `2026.0.2` / versionCode `2`
+- SHA256: `05204234141253717414cc2e233f1d7f4879d720f5cb4182fb94368d574d170f`
 
 ## What this build does
 
-- Shows a fullscreen black screen in landscape.
+- Shows a fullscreen black screen in portrait.
 - Keeps the screen awake while the attract screen is visible.
 - Hides Android system bars using immersive sticky mode.
 - Shows a subtle pulsing visual indication: **TOUCH HERE** / `to start driver registration`.
@@ -53,9 +53,9 @@ The build uses the local Android SDK/JDK toolchain at `/opt/data/.local/android-
 
 ```bash
 python -m unittest discover -s tests
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump badging dist/ard-screensaver-v2026.0.1-debug.apk
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump permissions dist/ard-screensaver-v2026.0.1-debug.apk
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/apksigner verify --verbose --print-certs dist/ard-screensaver-v2026.0.1-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump badging dist/ard-screensaver-v2026.0.2-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump permissions dist/ard-screensaver-v2026.0.2-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/apksigner verify --verbose --print-certs dist/ard-screensaver-v2026.0.2-debug.apk
 ```
 
 ## Real-device validation still needed

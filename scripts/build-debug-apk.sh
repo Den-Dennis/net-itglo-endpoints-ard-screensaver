@@ -8,7 +8,7 @@ BUILD_TOOLS="$SDK/build-tools/35.0.0"
 ANDROID_JAR="$SDK/platforms/android-35/android.jar"
 BUILD_DIR="$ROOT/build/manual-android"
 DIST_DIR="$ROOT/dist"
-APP_NAME="ard-screensaver-v2026.0.1-debug"
+APP_NAME="ard-screensaver-v2026.0.2-debug"
 
 export PATH="$JDK/bin:$BUILD_TOOLS:$SDK/cmdline-tools/latest/bin:$PATH"
 rm -rf "$BUILD_DIR"

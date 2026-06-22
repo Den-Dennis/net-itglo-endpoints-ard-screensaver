@@ -1,12 +1,12 @@
 # Build notes
 
-## v2026.0.1
+## v2026.0.2
 
 Initial debug APK.
 
 - Package: `net.itglo.endpoints.ard.screensaver`
-- APK: `dist/ard-screensaver-v2026.0.1-debug.apk`
-- SHA256: `8feffa72e5470ac5ba808c6ce25fdb8b7a8351108eb5ec262220ad89bc6bc896`
+- APK: `dist/ard-screensaver-v2026.0.2-debug.apk`
+- SHA256: `05204234141253717414cc2e233f1d7f4879d720f5cb4182fb94368d574d170f`
 - Permissions: none declared
 - Verified with:
   - `scripts/build-debug-apk.sh`

@@ -4,11 +4,11 @@
 
 Provide a small Android APK that acts as a black attract screen for truck driver self-registration devices. Drivers see a clear visual cue, touch the screen, and are forwarded into the real registration flow.
 
-## Scope v2026.0.1
+## Scope v2026.0.2
 
 - Native Java Android app; no Gradle dependency required.
 - Package: `net.itglo.endpoints.ard.screensaver`.
-- Fullscreen/immersive landscape attract screen.
+- Fullscreen/immersive portrait attract screen.
 - Managed configuration for text and target registration app.
 - No network or sensitive permissions.
 - Debug APK built and statically verified with Android SDK tooling.

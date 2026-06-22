@@ -7,9 +7,11 @@ MAIN = (ROOT / "app/src/main/java/net/itglo/endpoints/ard/screensaver/MainActivi
 
 
 class StaticPolicyTest(unittest.TestCase):
-    def test_package_and_version(self):
+    def test_package_version_and_orientation(self):
         self.assertIn('package="net.itglo.endpoints.ard.screensaver"', MANIFEST)
-        self.assertIn('android:versionName="2026.0.1"', MANIFEST)
+        self.assertIn('android:versionName="2026.0.2"', MANIFEST)
+        self.assertIn('android:versionCode="2"', MANIFEST)
+        self.assertIn('android:screenOrientation="portrait"', MANIFEST)
 
     def test_no_network_or_sensitive_permissions(self):
         forbidden = ["INTERNET", "READ_CONTACTS", "WRITE_CONTACTS", "GET_ACCOUNTS", "READ_PHONE_STATE"]
