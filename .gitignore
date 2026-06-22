@@ -1,0 +1,20 @@
+# Android/build outputs
+build/
+.gradle/
+*.apk
+*.idsig
+*.ap_
+*.dex
+*.class
+__pycache__/
+*.py[cod]
+
+# Local/editor files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Secrets/local env
+.env
+local.properties

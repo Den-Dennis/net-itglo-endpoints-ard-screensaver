@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Driver Screensaver</string>
+    <string name="target_package_description">Optional package name to open after touch, for example com.company.registration</string>
+    <string name="target_activity_description">Optional fully qualified Activity class. Leave empty to use the target package launcher activity.</string>
+</resources>

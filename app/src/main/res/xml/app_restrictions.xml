@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction
+        android:key="main_text"
+        android:title="Main text"
+        android:restrictionType="string"
+        android:defaultValue="TOUCH HERE" />
+    <restriction
+        android:key="sub_text"
+        android:title="Sub text"
+        android:restrictionType="string"
+        android:defaultValue="to start driver registration" />
+    <restriction
+        android:key="target_package"
+        android:title="Target app package"
+        android:description="@string/target_package_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+    <restriction
+        android:key="target_activity"
+        android:title="Target activity class"
+        android:description="@string/target_activity_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+    <restriction
+        android:key="fallback_to_home"
+        android:title="Fallback to Android home if target app is not configured/found"
+        android:restrictionType="bool"
+        android:defaultValue="true" />
+</restrictions>
