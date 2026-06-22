@@ -1,4 +1,4 @@
-package net.itglo.driver.screensaver;
+package net.itglo.endpoints.ard.screensaver;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

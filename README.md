@@ -1,13 +1,13 @@
-# net-itglo-driver-screensaver
+# net-itglo-endpoints-ard-screensaver
 
 Minimal Android attract/screen-saver app for truck driver self-registration kiosks.
 
 ## Current artifact
 
-- APK: `dist/driver-screensaver-v2026.0.1-debug.apk`
-- Package: `net.itglo.driver.screensaver`
+- APK: `dist/ard-screensaver-v2026.0.1-debug.apk`
+- Package: `net.itglo.endpoints.ard.screensaver`
 - Version: `2026.0.1` / versionCode `1`
-- SHA256: `5e8cdedecc8c5b0d4151776aba31f744195f57130ea20fc895e5d3b1d9442e1c`
+- SHA256: `8feffa72e5470ac5ba808c6ce25fdb8b7a8351108eb5ec262220ad89bc6bc896`
 
 ## What this build does
 
@@ -53,9 +53,9 @@ The build uses the local Android SDK/JDK toolchain at `/opt/data/.local/android-
 
 ```bash
 python -m unittest discover -s tests
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump badging dist/driver-screensaver-v2026.0.1-debug.apk
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump permissions dist/driver-screensaver-v2026.0.1-debug.apk
-/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/apksigner verify --verbose --print-certs dist/driver-screensaver-v2026.0.1-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump badging dist/ard-screensaver-v2026.0.1-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/aapt dump permissions dist/ard-screensaver-v2026.0.1-debug.apk
+/opt/data/.local/android-mvp-tools/android-sdk/build-tools/35.0.0/apksigner verify --verbose --print-certs dist/ard-screensaver-v2026.0.1-debug.apk
 ```
 
 ## Real-device validation still needed

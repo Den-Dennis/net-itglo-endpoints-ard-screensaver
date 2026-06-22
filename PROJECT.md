@@ -1,4 +1,4 @@
-# Driver Screensaver Project
+# ARD Screensaver Project
 
 ## Goal
 
@@ -7,7 +7,7 @@ Provide a small Android APK that acts as a black attract screen for truck driver
 ## Scope v2026.0.1
 
 - Native Java Android app; no Gradle dependency required.
-- Package: `net.itglo.driver.screensaver`.
+- Package: `net.itglo.endpoints.ard.screensaver`.
 - Fullscreen/immersive landscape attract screen.
 - Managed configuration for text and target registration app.
 - No network or sensitive permissions.

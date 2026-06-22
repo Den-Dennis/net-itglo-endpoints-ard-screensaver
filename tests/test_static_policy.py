@@ -3,12 +3,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = (ROOT / "app/src/main/AndroidManifest.xml").read_text()
-MAIN = (ROOT / "app/src/main/java/net/itglo/driver/screensaver/MainActivity.java").read_text()
+MAIN = (ROOT / "app/src/main/java/net/itglo/endpoints/ard/screensaver/MainActivity.java").read_text()
 
 
 class StaticPolicyTest(unittest.TestCase):
     def test_package_and_version(self):
-        self.assertIn('package="net.itglo.driver.screensaver"', MANIFEST)
+        self.assertIn('package="net.itglo.endpoints.ard.screensaver"', MANIFEST)
         self.assertIn('android:versionName="2026.0.1"', MANIFEST)
 
     def test_no_network_or_sensitive_permissions(self):

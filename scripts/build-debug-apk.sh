@@ -8,7 +8,7 @@ BUILD_TOOLS="$SDK/build-tools/35.0.0"
 ANDROID_JAR="$SDK/platforms/android-35/android.jar"
 BUILD_DIR="$ROOT/build/manual-android"
 DIST_DIR="$ROOT/dist"
-APP_NAME="driver-screensaver-v2026.0.1-debug"
+APP_NAME="ard-screensaver-v2026.0.1-debug"
 
 export PATH="$JDK/bin:$BUILD_TOOLS:$SDK/cmdline-tools/latest/bin:$PATH"
 rm -rf "$BUILD_DIR"
@@ -39,7 +39,7 @@ cd "$BUILD_DIR/dex"
 "$BUILD_TOOLS/aapt" add "$BUILD_DIR/${APP_NAME}-unsigned.apk" classes.dex >/dev/null
 cd "$ROOT"
 
-KEYSTORE="$ROOT/keystore/driver-screensaver-debug.keystore"
+KEYSTORE="$ROOT/keystore/ard-screensaver-debug.keystore"
 mkdir -p "$ROOT/keystore"
 if [ ! -f "$KEYSTORE" ]; then
   "$JDK/bin/keytool" -genkeypair -v \
@@ -50,7 +50,7 @@ if [ ! -f "$KEYSTORE" ]; then
     -keyalg RSA \
     -keysize 2048 \
     -validity 10000 \
-    -dname "CN=Driver Screensaver Debug,O=ITGLO,C=BE" >/dev/null
+    -dname "CN=ARD Screensaver Debug,O=ITGLO,C=BE" >/dev/null
 fi
 
 "$BUILD_TOOLS/zipalign" -f -p 4 \

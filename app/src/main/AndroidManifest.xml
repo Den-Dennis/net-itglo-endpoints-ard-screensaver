@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.itglo.driver.screensaver"
+    package="net.itglo.endpoints.ard.screensaver"
     android:versionCode="1"
     android:versionName="2026.0.1">
 
@@ -9,7 +9,7 @@
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@drawable/ic_launcher"
-        android:label="Driver Screensaver"
+        android:label="ARD Screensaver"
         android:roundIcon="@drawable/ic_launcher"
         android:theme="@style/AppTheme">
 
@@ -22,7 +22,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:directBootAware="true"
             android:exported="true"
-            android:label="Driver Screensaver"
+            android:label="ARD Screensaver"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

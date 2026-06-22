@@ -4,9 +4,9 @@
 
 Initial debug APK.
 
-- Package: `net.itglo.driver.screensaver`
-- APK: `dist/driver-screensaver-v2026.0.1-debug.apk`
-- SHA256: `5e8cdedecc8c5b0d4151776aba31f744195f57130ea20fc895e5d3b1d9442e1c`
+- Package: `net.itglo.endpoints.ard.screensaver`
+- APK: `dist/ard-screensaver-v2026.0.1-debug.apk`
+- SHA256: `8feffa72e5470ac5ba808c6ce25fdb8b7a8351108eb5ec262220ad89bc6bc896`
 - Permissions: none declared
 - Verified with:
   - `scripts/build-debug-apk.sh`
